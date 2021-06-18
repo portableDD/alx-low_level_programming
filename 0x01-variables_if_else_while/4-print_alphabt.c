@@ -2,11 +2,14 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main(void) {
+/* betty style doc for function main goes there */
+int main(void) 
+{
    int ch;
 
    for(ch = 'a' ; ch <= 'z' ; ch++)
       putchar(ch);
-      putchar ('\n');
+    putchar ('\n');
+
    return(0);
 }

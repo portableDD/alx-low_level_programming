@@ -2,15 +2,20 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main(){
 
+/* betty style doc for function main goes there */
+int main()
+{
     int ch;
-    for (ch = 'A'; ch <= 'Z'; ch++)
+
+    for (ch = 'A'; ch <= 'Z'; ch++){
          putchar(ch);
-   
-    for (ch= 'a'; ch<= 'z'; ch++)
+    }
+    for (ch = 'a'; ch <= 'z'; ch++){
         putchar(ch);
-        putchar ('\n');
+    }
+    putchar ('\n');
+    
     return(0);
 }
 
