@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 
 int main (void) {
    int ch;
@@ -7,5 +10,5 @@ int main (void) {
       putchar(ch);
    }
    
-   return(0);
+   return(ch);
 }
