@@ -1,9 +1,14 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
+/**
+ * main - Entry point
+ *
+ * Description: Prints the alphabet using ascii values.
+ *
+ * Return: Always 0
+ */
 
 
-/* betty style doc for function main goes there */
 int main(void)
 {
    int ch;

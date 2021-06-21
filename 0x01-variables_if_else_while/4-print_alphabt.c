@@ -1,15 +1,26 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
-/* betty style doc for function main goes there */
-int main(void) 
+/**
+ * main - Entry point
+ *
+ * Description: Prints the alphabet using ascii values except e and q
+ *
+ * Return: Always 0
+ */
+
+int main(void)
 {
-   int ch;
+	char letter;
 
-   for(ch = 'a' ; ch <= 'z' ; ch++)
-      putchar(ch);
-    putchar ('\n');
-
-   return(0);
+	letter = 'a';
+	while (letter != '{')
+	{
+		if (letter != 'e' && letter != 'q')
+		{
+			putchar (letter);
+		}
+		letter++;
+	}
+	putchar('\n');
+	return (0);
 }
