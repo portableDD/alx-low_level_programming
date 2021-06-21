@@ -1,19 +1,23 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Entry point of code
  *
- * Description: Prints the alphabet using ascii values.
+ * Description: Prints the alphabet using ascii values
  *
  * Return: Always 0
  */
 
 int main(void)
 {
-   int ch;
+	char letter;
 
-   for(ch = 'a' ; ch <= 'z' ; ch++)
-      putchar(ch);
-   putchar('\n');
-   return(0);
+	letter = 'a';
+	while (letter != '{')
+	{
+		putchar (letter);
+		letter++;
+	}
+	putchar('\n');
+	return (0);
 }

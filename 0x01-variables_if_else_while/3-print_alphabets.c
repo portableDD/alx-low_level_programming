@@ -10,16 +10,20 @@
 
 int main(void)
 {
-    int ch;
+	char letter;
 
-    for (ch = 'a'; ch <= 'z'; ch++)
-    {
-        putchar(ch);
-    }
-    for (ch = 'A'; ch <= 'Z'; ch++)
-    {
-        putchar(ch);
-    }
-    putchar ('\n');
-    return(0);
+	letter = 'a';
+	while (letter != '{')
+	{
+		putchar (letter);
+		letter++;
+	}
+	letter = 'A';
+	while (letter != '[')
+	{
+		putchar (letter);
+		letter++;
+	}
+	putchar('\n');
+	return (0);
 }
