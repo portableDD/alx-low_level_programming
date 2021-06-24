@@ -10,8 +10,11 @@
 
 int main(void)
 {
-    if( isupper(c >= 'A' && c <= 'Z') ) 
-      return (1);
-    else 
-	return (0);
+    if( isupper(c >= 'A' && c <= 'Z') ) {
+        return (1);
+    }
+    else {
+        return (0);
+    }
+    return (0);
 }
