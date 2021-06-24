@@ -8,10 +8,10 @@
  * Return: 1 if c is lowercase, Otherwise 0
  */
 
-int _isupper(int c)
+int main(void)
 {
-	if (c >= 'A' && c <= 'Z')
-		return (1);
-    else (c >= 'a' && c <= 'z');
+    if( isupper(c >= 'A' && c <= 'Z') ) 
+      return (1);
+    else 
 	return (0);
 }
