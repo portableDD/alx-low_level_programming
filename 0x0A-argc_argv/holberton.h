@@ -1,7 +1,9 @@
 #ifndef _HOLBERTON_H_
 #define _HOLBERTON_H_
 
-int _putchar (char c);
-int main(int argc, char *argv[]);
+#include <stdio.h>
+#include <stdlib.h>
+int main(int argc, char **argv);
+int checker(char *c);
 
 #endif
